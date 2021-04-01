@@ -5,7 +5,7 @@ import App from './App';
 import './config/i18n';
 import './index.less';
 import './index.scss';
-import { AccountProvider } from './providers/account';
+import { AccountProvider } from './hooks/account';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

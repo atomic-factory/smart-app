@@ -3,7 +3,7 @@ import { Dropdown, Menu } from 'antd';
 import React, { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { NetworkType } from '../model';
-import { useAccount } from '../providers/account';
+import { useAccount } from '../hooks/account';
 
 export interface TransferValue {
   from?: string;

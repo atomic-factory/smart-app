@@ -8,8 +8,8 @@ import React, {
   useEffect,
   useReducer,
 } from 'react';
-import { connectNodeProvider, ConnectStatus } from '../hooks/connect';
 import { AccountType, NetworkType } from '../model';
+import { connectNodeProvider, ConnectStatus } from '../utils/api/connect';
 
 interface StoreState {
   account: string;

@@ -3,8 +3,9 @@ import { useForm } from 'antd/lib/form/Form';
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import web3 from 'web3';
-import { getTokenBalanceDarwinia } from '../hooks/connect';
-import { useAccount } from '../providers/account';
+import { useAccount } from '../hooks/account';
+import { formatBalance } from '../utils';
+import { getTokenBalanceDarwinia } from '../utils/api/connect';
 import { TransferSelect } from './TransferControl';
 
 type Assets = 'ring' | 'kton';
@@ -74,7 +75,7 @@ export function TransferForm() {
       >
         <Input
           placeholder={t('Available balance {{balance}}', {
-            balance: balance[form.getFieldValue('assets') as Assets],
+            balance: formatBalance(balance[form.getFieldValue('assets') as Assets]),
           })}
         />
       </Form.Item>

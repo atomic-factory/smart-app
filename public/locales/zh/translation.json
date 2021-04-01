@@ -2,6 +2,7 @@
   "Amount": "数量",
   "Assets": "资产",
   "Available balance {{balance}}": "可用余额{{balance}}",
+  "Browser": "浏览器",
   "Cancel": "取消",
   "Confirm": "确定",
   "Connect Wallet": "连接钱包",
@@ -9,9 +10,6 @@
   "Crab": "Crab",
   "DVM": "DVM",
   "DVM Guard": "了解 DVM",
-  "Wallet": "钱包",
-  "Wormhole": "虫洞",
-  "Browser": "浏览器",
   "DVM smart contract": "DVM 智能合约",
   "Darwinia": "Darwinia",
   "Do you want to login with darwinia smart account? Current account will be disconnect after switch to darwinia smart account.": "确定要使用智能账号登陆吗？切换成功后当前账号将会断开连接",
@@ -27,10 +25,12 @@
   "Receiving Address": "收款地址",
   "Select Account": "选择账号",
   "Switch Wallet": "更换钱包",
+  "Switch to smart address": "更改为达尔文智能地址",
   "To": "到",
-  "Use another mainnet address": "更改为其它的达尔文主网地址",
+  "Use another mainnet address": "更改为其它达尔文主网地址",
+  "Wallet": "钱包",
+  "Wormhole": "虫洞",
   "You are trying to transfer from Darwinia {{type}} account, you must first obtain authorization from the wallet.": "您正在尝试从达尔文{{type}}账户转账，首先要获得钱包的授权",
   "You haven’t created an account yet, go ahead and create one.": "你还没有创建账号，先去创建吧",
-  "disconnect": "断开连接",
-  "Switch to smart address": "更改为达尔文智能地址"
+  "disconnect": "断开连接"
 }
